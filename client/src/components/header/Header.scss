@@ -1,0 +1,66 @@
+.header {
+  height: 100%;
+  background-color: rgb(237, 235, 235);
+
+  .headerCo {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 5px;
+    margin: auto;
+    gap: 100px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .leftCo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 1.5;
+        }
+      }
+      .leftContainer {
+        display: flex;
+        gap: 20px;
+
+        button {
+          padding: 10px 20px;
+          border: none;
+          font-size: 20px;
+          border: 1px solid black;
+          background-color: white;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &:first-child {
+            background-color: #2f2f2f;
+            color: white;
+          }
+        }
+      }
+    }
+    .right {
+      display: block;
+      width: 550px;
+      height: 500px;
+
+      img {
+        width: 550px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+}
