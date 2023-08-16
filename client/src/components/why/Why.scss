@@ -1,0 +1,40 @@
+.why {
+  height: 100%;
+
+  .whyContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      padding: 0px 20px;
+    }
+    .wContainer {
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+
+      .aside {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        svg {
+          width: 30px;
+        }
+        h2 {
+          font-size: 25px;
+        }
+        p {
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
