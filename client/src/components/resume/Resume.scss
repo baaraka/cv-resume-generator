@@ -1,0 +1,29 @@
+.resume {
+  height: 100%;
+  background-color: black;
+  color: white;
+
+  .resumeContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+    }
+    button {
+      font-size: 20px;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
