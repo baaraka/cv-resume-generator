@@ -32,7 +32,9 @@ function NavBar() {
             <span>Resume</span>
           </Link>
           <span>Template</span>
-          <span>Create</span>
+          <Link to="/create">
+            <span>Create</span>
+          </Link>
         </div>
         <div className="right">
           <span>Login</span>
