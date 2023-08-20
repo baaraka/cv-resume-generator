@@ -1,0 +1,49 @@
+.create {
+  height: 100%;
+
+  .createContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .formDivDiv {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+
+          .formDiv {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .form {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+
+              input {
+                border: 1px solid lightgray;
+                padding: 10px;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
